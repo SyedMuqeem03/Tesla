@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0px;
     padding: 0px;
@@ -618,4 +619,626 @@ button:hover {
 .leasing-buttons button:hover {
     background-color: rgba(23, 26, 32, 0.8);
     color: white;
+=======
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+
+
+.hero-container{
+    background-image: url(./assets/Group/Group_72.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav-links li {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    align-items: center;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#logo img{
+    width: 100px;
+    height: 17px;
+   position: relative;
+   padding: 30px;
+}
+
+.model-y{
+    background-image: url(./assets/y-model/ModelY_59.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.main{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .model-contentt{
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 0px;
+    position: relative;
+    top: 70%;
+} */
+
+
+.model-content {  /* Note: fixed typo from "model-contentt" to "model-content" */
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+}
+
+.model-content button:first-child {
+    background-color: #3457D5;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.model-content button:first-child:hover {
+    background-color: #2945b0;
+}
+
+.model-content button:nth-child(2) {
+    background-color: white;
+    color: black;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.model-content button:nth-child(2):hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.model-text{
+    text-align: center;
+    font-size: 1rem;
+    margin: 0px;
+    padding-top: 10px;
+    position: relative;
+    top: 10%;
+
+   
+}
+
+
+.model-3{
+    background-image: url(./assets/3-model/Model3_57.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* .model-3-content{
+
+    font-size: 1rem;
+    margin: 0px;
+    padding-top: 10px;
+    position: relative;
+    top: 70%;
+} */
+
+
+.model-x{
+    background-image: url(./assets/x-model/ModelX_64.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.model-s{ background-image: url(./assets/S-model/ModelS_62.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.model-cybertruck{
+    background-image: url(./assets/cybertruck/Cybertruck_74.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+.solar-panels{
+    background-image: url(./assets/solar-panels/SolarPanels_85.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.solar-roof{
+    background-image: url(./assets/solar-roof/SolarRoof_87.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.power-wall{
+    background-image: url(./assets/power-wall/0x0-Powerwall_02.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.accessories{
+    background-image: url(./assets/Accessories/WallConnector_90.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.accessories .model-text h1 {
+    color: white;
+}
+
+.leasing-container h1{
+    font-size: 5rem;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.leasing-container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.leasing-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+/* .video-content{
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 800px;
+} */
+
+/* .video-container{
+    width: 100%;
+    height: 100vh;
+} */
+
+.video-content {
+    width: 100%;
+    height: 100vh;
+}
+
+.video-content video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-content{
+    font-size: 1rem;
+    color: #5c5e62;
+    text-align: center;
+    padding: 20px 300px;
+    display: grid;
+    gap: 20px;
+}
+
+.footer-content span{
+    display: flex;
+    
+}
+.footer-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links-container li{
+    list-style: none;
+}
+
+.footer-links{
+
+   gap: 30px;
+    display: flex;
+    color: #5c5e62;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* Add these responsive styles at the end of your CSS file */
+
+/* Tablet Styles (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+    .nav-container {
+        padding: 0 20px;
+    }
+
+    .nav-links li {
+        padding: 0 5px;
+        font-size: 0.9rem;
+    }
+
+    #logo img {
+        width: 100px;
+        height: 20px;
+        padding: 20px;
+    }
+
+    .model-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .model-content {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .model-content button {
+        padding: 8px 20px;
+    }
+
+    .video-content {
+        height: 100vh;
+    }
+    
+    .video-content video {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .model-text h1 {
+        font-size: 3rem;
+    }
+
+    .leasing-container h1 {
+        font-size: 4rem;
+    }
+
+    .model-content {
+        gap: 15px;
+    }
+
+    button {
+        padding: 10px 30px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Mobile Styles (up to 767px) */
+@media screen and (max-width: 767px) {
+    .nav-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #logo img {
+        width: 80px;
+        height: 16px;
+        padding: 10px;
+    }
+
+    .nav-links-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .nav-links {
+        white-space: nowrap;
+        padding: 0;
+    }
+
+    .nav-links li {
+        padding: 0 8px;
+        font-size: 0.8rem;
+    }
+
+    .model-text {
+        top: 10%;
+    }
+
+    .model-text h1 {
+        font-size: 2rem;
+    }
+
+    .model-text p {
+        font-size: 0.9rem;
+    }
+
+    .model-content {
+        flex-direction: column;
+        gap: 10px;
+        top: 65%;
+    }
+
+    .model-content button {
+        width: 250px;
+        padding: 12px 24px;
+    }
+
+    .video-content {
+        height: 90vh;
+    }
+    
+    .video-content video {
+        height: 100%;
+        object-position: center;
+    }
+
+    .model-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .model-text p {
+        font-size: 0.9rem;
+    }
+
+    .leasing-container h1 {
+        font-size: 3rem;
+    }
+
+    .leasing-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .model-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 280px;
+        padding: 12px 24px;
+    }
+
+    .nav-links li {
+        padding: 0 8px;
+        font-size: 0.9rem;
+    }
+
+    #logo img {
+        width: 100px;
+        height: 20px;
+        padding: 20px;
+    }
+}
+
+/* Small Mobile Styles (up to 480px) */
+@media screen and (max-width: 480px) {
+    .nav-links li {
+        padding: 0 5px;
+        font-size: 0.75rem;
+    }
+
+    .model-text h1 {
+        font-size: 1.75rem;
+    }
+
+    .model-content button {
+        width: 200px;
+    }
+
+    .video-content {
+        height: 80vh;
+    }
+
+    .model-text h1 {
+        font-size: 2rem;
+    }
+
+    .leasing-container h1 {
+        font-size: 2rem;
+    }
+
+    .model-text p {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+        max-width: 250px;
+    }
+
+    .nav-links li {
+        padding: 0 5px;
+        font-size: 0.8rem;
+    }
+
+    #logo img {
+        width: 80px;
+        height: 16px;
+        padding: 15px;
+    }
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: white;
+    color: black;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(23, 26, 32, 0.8);
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 5%;
+        z-index: 10;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.5s ease;
+    }
+
+    .nav-links li a {
+        color: #000000;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    .nav-links.active li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .nav-links.active li a {
+        font-size: 1.5rem;
+        padding: 15px;
+        transition: all 0.3s ease;
+    }
+
+    /* Hamburger Animation */
+    .hamburger.active .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active .line2 {
+        opacity: 0;
+    }
+
+    .hamburger.active .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .hamburger.active ~ .leasing-container,
+    nav:has(.hamburger.active) + .leasing-container {
+        display: none;
+    }
+}
+
+/* Default button hover */
+button:hover {
+    background-color: rgba(23, 26, 32, 0.8);
+    color: white;
+}
+
+/* First child button hover (blue buttons) */
+.model-content button:first-child:hover {
+    background-color: #2945b0;
+    color: white;
+}
+
+/* Second child button hover (white buttons) */
+.model-content button:nth-child(2):hover {
+    background-color: rgba(23, 26, 32, 0.1);
+    color: black;
+}
+
+/* Leasing buttons hover */
+.leasing-buttons button:hover {
+    background-color: rgba(23, 26, 32, 0.8);
+    color: white;
+>>>>>>> 6858f5f0d2f213a8ea6da453a7bae1f32ee9e221
 }
