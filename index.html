@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Tesla</title>
+    <style>
+        /* Footer Responsive Styles */
+        @media screen and (max-width: 1024px) {
+            .footer-content {
+                padding: 20px;
+                font-size: 0.9rem;
+            }
+
+            .footer-content span {
+                margin: 10px 0;
+            }
+
+            .footer-links {
+                padding: 20px;
+                gap: 20px;
+            }
+
+            .footer-links li {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .footer-content {
+                padding: 15px;
+                font-size: 0.8rem;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .footer-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+                padding: 15px;
+            }
+
+            .footer-links li {
+                font-size: 0.8rem;
+                padding: 5px 10px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .footer-content {
+                padding: 10px;
+                font-size: 0.75rem;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .footer-links li {
+                font-size: 0.75rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="hero-container">
+        <div class="nav-container">
+            <div id="logo">
+                <img  src="./assets/logo-black.png" alt="logo">
+            </div>
+            <nav>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#model-y">Model-Y</a></li>
+                    <li><a href="#model-s">Model-S</a></li>
+                    <li><a href="#cybertruck">Cybertruck</a></li>   
+                    <li><a href="#solar-panels">Solar Panels</a></li>
+                    <li><a href="#solar-roof">Solar Roofs</a></li>
+                    <li><a href="#power-wall">Power Wall</a></li>
+                    <li><a href="#accessories">Accessories</a></li>
+                </ul>
+            </nav>
+            <div class="leasing-container">
+                <h1>$299/mo Leasing</h1>
+                <div class="leasing-buttons">
+                    <button>Order Model 3</button>
+                    <button>Order Model Y</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="model-y" class="model-y">
+        <div class="model-text">
+            <h1>Model Y</h1>
+            <p>Order Online for <span>Touchless Delivery</span></p>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div class="model-3">
+        <div class="model-text">
+            <h1>Model 3</h1>
+            <p>Order Online for <span>Touchless Delivery</span></p>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div class="model-x">
+        <div class="model-text">
+            <h1>Model X</h1>
+            <p>Order Online for <span>Touchless Delivery</span></p>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div id="model-s" class="model-s">
+        <div class="model-text">
+            <h1>Model S</h1>
+            <p>Order Online for <span>Touchless Delivery</span></p>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div id="cybertruck" class="model-cybertruck">
+        <div class="model-text">
+            <h1> Cybertruck</h1>
+            <p>Order Online for <span>Touchless Delivery</span></p>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div id="solar-panels" class="solar-panels">
+        <div class="model-text">
+            <h1>Solar Panels</h1>
+            <h1>Schedule a Virtual Consultation
+            </h1>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div id="solar-roof" class="solar-roof">
+        <div class="model-text">
+            <h1>Solar Roof</h1>
+            <h1>Produce Clean Energy From Your Roof</h1>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div id="power-wall" class="power-wall">
+        <div class="model-text">
+            <h1>Power Wall</h1>
+        </div>
+        <div class="model-content">
+            <button>Order Now</button>
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div id="accessories" class="accessories">
+        <div class="model-text">
+            <h1>Accessories</h1>
+        </div>
+        <div class="model-content">
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="video-content">
+        <video src="./assets/videos/80_CT_Deliveries_Accessories.mp4" autoplay loop muted></video>
+    </div>
+    <div class="footer">
+        <p class="footer-content"> 
+            <span>  <sub>1</sub>Monthly lease payment excludes taxes and fees, is based on $44,990 Model Y Long Range Rear-Wheel Drive purchase price and is subject to change at any time. Requires $2,999 down with 36 months and 10,000 miles. Subject to credit approval and available in select U.S. states. Terms apply.</span> 
+            <span>  <sub>2</sub>Monthly lease payment excludes taxes and fees, is based on $42,490 Model 3 Long Range Rear-Wheel Drive purchase price and is subject to change at any time. Requires $2,999 down with 36 months and 10,000 miles. Subject to credit approval and available in select U.S. states. Terms apply. </span> 
+            <span>  <sub>3</sub>Price before estimated savings is $81,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years, the $7,500 Federal Tax Credit and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply. </span> 
+            <span>  <sub>4</sub>Price before estimated savings is $76,630, including Destination and Order Fees, but excluding taxes and other fees. Subject to change. Vehicle shown has upgrades that will increase the price. Estimated savings includes $6,500 in gas savings estimated over five years and state incentives, available to eligible buyers and subject to MSRP caps. Not all vehicles, customers or finance options will be eligible. Terms apply. </span> 
+            <span>  <sub>5</sub>Monthly lease payment excludes taxes and fees, is based on $79,990 Cybertruck All-Wheel Drive purchase price and is subject to change at any time. Requires $7,500 down with 36 months and 10,000 miles. Subject to credit approval and available in select U.S. states. Terms apply.</span> 
+        </p>
+        <div class="footer-links-container">
+            <ul  class="footer-links">
+                <li> Privacy & Legal</li>
+                <li> Vehicle Recalls</li>
+                <li> Contact</li>
+                <li> News</li>
+                <li> Get Updates</li>
+                <li> Locations</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    hamburger.classList.toggle('active');
+});
+
+// Close menu when clicking a link
+document.querySelectorAll('.nav-links li').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+    });
+});
+</script>
+</body>
+</html>
